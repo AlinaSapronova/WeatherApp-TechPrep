@@ -1,0 +1,65 @@
+body{
+    background-image: url("fon.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    font-family: 'PT Serif', serif;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    padding: 10px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+}
+input:focus{
+    background-color: rgba(255,255,255,0.6);
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location #city{
+color: wheat;
+font-size: 40px;
+letter-spacing: 2px;
+}
+.location #date{
+    color: wheat;
+    font-size: 25px; 
+    margin-top: -20px;
+    letter-spacing: 2px;
+}
+#temp{
+    color: wheat;
+    font-size: 102px; 
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight:bold;
+    text-shadow: 10px 10px 10px black;
+}
+#now {
+    color: wheat;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
